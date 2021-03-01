@@ -7,6 +7,7 @@ import RandomNumber from './components/basic/Random';
 import Card from './components/layout/Card';
 import Family from './components/basic/Family';
 import FamilyMember from './components/basic/FamilyMember';
+import StudentList from './components/repetition/StudentList';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
       <h1>React fundamentals</h1>
 
       <div className="Cards">
+      <Card title="#06 - Repetição" color="#FF4C65">
+          <StudentList />
+        </Card>
+
         <Card title="#05 - Componente com filhos" color="#00C8F8">
           <Family sobrenome="Geisler">
             <FamilyMember nome="Vini" />

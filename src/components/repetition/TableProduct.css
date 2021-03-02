@@ -1,0 +1,16 @@
+.TableProduct table {
+  width: 100%;
+}
+
+.TableProduct th {
+  background-color: #283cae;
+  color: #fff;
+}
+
+.TableProduct .Par {
+  background-color: #ddd;
+}
+
+.TableProduct .Impar {
+  background-color: #ccc;
+}

@@ -2,11 +2,6 @@ import React from 'react';
 import students from '../../data/students'
 
 function StudentList(props) {
-  const li1 = (
-    <li>
-      {students[0].id} {students[0].nome} - {students[0].nota}
-    </li>
-  );
 
   const studentsLi = students.map(student => {
     return (

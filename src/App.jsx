@@ -11,6 +11,9 @@ import StudentList from './components/repetition/StudentList';
 import TableProduct from './components/repetition/TableProduct';
 import ParOrImpar from './components/conditional/ParOrImpar';
 import UserInfo from './components/conditional/UserInfo';
+import DirectFather from './components/comunication/DirectFather';
+import IndirectFather from './components/comunication/IndirectFather';
+import Input from './components/formulario/Input';
 
 function App() {
   return (
@@ -18,6 +21,18 @@ function App() {
       <h1>React fundamentals</h1>
 
       <div className="Cards">
+        <Card title="#11 - Componente controlado" color="#E45F56">
+          <Input />
+        </Card>
+
+        <Card title="#10 - Comunicação Indireta" color="#8bad39">
+          <IndirectFather />
+        </Card>
+
+        <Card title="#09 - Comunicação direta" color="#59323c">
+          <DirectFather />
+        </Card>
+
         <Card title="#08 - Renderização Condicional" color="#982395">
           <ParOrImpar numero={20} />
         </Card>

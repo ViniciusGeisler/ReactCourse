@@ -14,6 +14,7 @@ import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/comunication/DirectFather';
 import IndirectFather from './components/comunication/IndirectFather';
 import Input from './components/formulario/Input';
+import Contador from './components/contador/Contador'
 
 function App() {
   return (
@@ -21,7 +22,11 @@ function App() {
       <h1>React fundamentals</h1>
 
       <div className="Cards">
-        <Card title="#11 - Componente controlado" color="#E45F56">
+        <Card title="#12 - Contador" color="#424242">
+          <Contador numeroInicial={20}/>
+        </Card>
+
+        <Card title="#11 - Componente controlado(input)" color="#E45F56">
           <Input />
         </Card>
 
